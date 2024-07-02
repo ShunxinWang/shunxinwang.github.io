@@ -19,7 +19,31 @@
 {"@context":"https://schema.org","@type":"WebSite","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Your awesome title","name":"Your awesome title","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Shunxin Wang" /></head>
-<body><header class="site-header" role="banner">
+
+
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  img {
+    max-width: 25%;
+    max-height:15%;
+    float: left;
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20%;
+    float: left;
+  }
+  </style>
+  
+  
+  <body><header class="site-header" role="banner">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">Shunxin Wang</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -41,12 +65,12 @@
 <h2 class="post-list-heading">About me</h2>
     <ul class="post-list"><li> 
         <h3>
-          <div> <img src="images/IMG_3938.JPG"  alt=""   width = "200"  height="180" style="vertical-align:middle;margin:50px 150px" >  
-          <h2> Research interests </h2>
+          <div class="container"> <div class="image"> <img src="images/IMG_3938.JPG"  alt=""   width = "200"  height="180" style="vertical-align:middle;margin:50px 150px" >  </div>
+          <div class="text">  <h2> Research interests </h2> </div>
           </div>
-          <div> <p> As a PhD student at the University of Twente, I am studying computer vision under the supervision of Raymond Veldhuis, Christoph Brune, and Nicola Strisciuglio. My research focus is on enhancing the robustness of deep learning-based computer vision systems against common image corruptions such as noise and blur. Meanwhile, I work on cell segmentation and classification with the Microscope images provided by BIOS lab at University of Twente. 
+           <p> As a PhD student at the University of Twente, I am studying computer vision under the supervision of Raymond Veldhuis, Christoph Brune, and Nicola Strisciuglio. My research focus is on enhancing the robustness of deep learning-based computer vision systems against common image corruptions such as noise and blur. Meanwhile, I work on cell segmentation and classification with the Microscope images provided by BIOS lab at University of Twente. 
             I have gained an in-depth understanding of the data processing of computer vision systems from a Fourier perspective. By analyzing the frequency components of the input data, I have discovered that many computer vision systems rely on frequency shortcuts to achieve their objectives quickly, which may impact their robustness. To address this issue, I am exploring efficient learning techniques that utilize data in a more effective manner during training.
-          </p> </div>
+          </p> 
         
         
         </h3></li></ul>
